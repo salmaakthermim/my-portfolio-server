@@ -10,8 +10,8 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    // 'https://my-portfolio-website-51c67.web.app',
-    // 'https://my-portfolio-website-51c67.firebaseapp.com',
+    'https://my-portfolio-website-51c67.web.app',
+    'https://my-portfolio-website-51c67.firebaseapp.com',
   ],
   credentials: true
 }));
